@@ -1,0 +1,390 @@
+@media (max-width:480px) {
+    header{
+        width: 100vw;
+        height: 150px;
+        position: fixed;
+        background-color: var(--primary-color);
+        z-index: 1;
+    }
+    header .covid{
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: var(--light-color);
+        background-color: var(--secondary-color);
+    }
+    header .covid button{
+        width: 100px;
+        height: 35px;
+        border-radius: 18px;
+        border: none;
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        display: inline-block;
+        transition: all 0.5s ease;
+    }
+    
+    header .covid p{
+        font-size: 10px;
+    }
+
+    header .menu{
+        width: 100%;
+        height: 75px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: none;
+        align-items: right;
+        color: var(--light-color);
+        font-size: 10px;   
+    }
+   
+    header .menu div{
+        width: 600px;
+        height: 75px;
+        display: flex;
+        align-items: right;
+       justify-content: none;
+    }
+
+    header .menu a{
+        height: 35px;
+        width: 75px;
+        padding-top: 8px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--light-color);
+        display: inline-block;
+        transition: all 0.5s ease;
+    }
+    
+    header .menu div a:hover{
+        background-color: var(--secondary-color);
+    }
+    
+    header .menu div button{
+        width: 45px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: var(--secondary-color);
+        background-image: url(cart.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        border: none;
+        position: relative;
+        right: 20px;
+    }
+    
+    header .menu div button span{
+        width: 20px;
+        height: 20px;
+        padding-top: 2px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: -10px;
+        left: 35px;
+        text-align: center;
+    
+        background-color: var(--light-color);
+    }
+    
+    header .menu img{ 
+       right: 20px;
+        width: 50px;
+        
+    }
+
+    main{
+    
+        background-image: url(ac1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        display: block;
+        height: 700px;
+        top: 150px;
+        position: relative;
+    }
+    
+    main .titulo1 h1{
+        padding-top: 10px;
+        padding-left: 12%;
+        font-size: 40px;
+        color: var(--light-color);
+        display: flex;
+        display: block;
+    }
+    
+    main .titulo1 p{
+        padding-top: 8px;
+        padding-left: 12%;
+        color: var(--light-color);
+        display: flex;
+        display: block;
+        font-size: 10px;
+       
+    }
+    
+    main .titulo1 button{
+        display: block;
+        margin-left: 12%;
+        margin-top: 30px;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        border: 2px solid;
+        border-color: var(--light-color);
+        color: var(--light-color);
+        font-size: 8px;
+    }
+
+    main .div1 p span{
+        display: flex;
+        padding-top: 200px;
+        padding-left: 12%;
+        font-size: 10px;
+        
+    }
+
+    main .div1 h2{
+        font-size: 25px;
+        padding-left: 12%;
+        display: flex;
+        display: block;
+        flex-direction: column;
+    }
+
+    main .div1 .p1{
+        margin-left: 12%;
+        margin-top: 10px;
+        display: block;
+        display: inline-block;
+        flex-direction: column;
+        font-size: 13px;
+    
+    }
+
+
+    main .contenedor{
+        flex-direction: column; 
+        display: block;
+        display: inline-block;
+        padding-left: 10%;
+        gap: 10%;
+        padding-top: 150px;
+    }
+
+    .caja2{
+        height: 340px;
+        width: 330px;
+        background-color: var(--secondary-color);
+        gap: 10%;
+        color: var(--light-color);
+        margin-bottom: 30px;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+    .caja3{
+        height: 340px;
+        width: 330px;
+        margin-top: -11px;
+        background-color: var(--secondary-color);
+        gap: 10%;
+        color: var(--light-color); 
+        margin-bottom: 30px;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+    main .titulo2 h2{
+        color: var(--light-color);
+        text-align: right;
+        margin-right: 11%;
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: block;
+        padding-top: 150px;
+    }
+
+    main .titulo2 p{
+        color: var(--light-color);
+        text-align: right;
+        margin-right: 11%;
+        font-size: 13px;
+   }
+
+   main .titulo2 button{
+    border: 2px solid;
+    border-color: var(--light-color);
+    color: var(--secondary-color);
+    font-size: 15px;
+    background-color: var(--light-color);
+    margin-left: 56%;
+    margin-top: 20px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+main .titulo3 span{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 11%;
+}
+
+main .contenedor2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 1%;
+    margin-top: -200px;
+    padding-top: 250px;
+    text-align: center;
+    display: block;
+    display: inline-block;
+    padding-left: 18%;
+
+}
+
+.arti1 button{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--light-color);
+    width: 25%;
+    text-align: center;
+    height: 30px;
+    border: none;
+}
+
+.arti2 button{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--light-color);
+    width: 25%;
+    text-align: center;
+    height: 30px;
+    border: none;
+}
+
+main .vertodos{
+    margin-left: 35%;
+    margin-top: 70px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--light-color);
+    width: 40%;
+    text-align: center;
+    height: 35px;
+    border: none;
+}
+
+main .imagen3{
+    width: 40%;
+    height: 360px;
+    border-radius: 5px;
+    background-image: url(ac5.jpg);
+    background-size: cover;
+    background-position: 69% 80%;
+    background-size: 270%;
+    position: relative;
+    top: 50px;
+    right: 10px;
+    left: -20%;
+    background-repeat: no-repeat;
+
+    
+}
+
+main .titulo4 h2{
+    
+    margin-left: 38%;
+    position: relative;
+    top: -300px;
+    font-size: 20px;
+    
+}
+
+
+
+main .titulo4 p{
+    margin-top: 13px;
+    margin-left: 38%;
+    position: relative;
+    top: -300px;
+    font-size: 10px;
+
+}
+
+main .derechos{
+    position: relative;
+    top: 30px;
+    left: 25%;
+}
+
+.twitter{
+    
+    background-image: url(twitter.svg);
+   background-position: center;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    margin-left: 12%;
+    padding-top: 10px;
+    position: relative;
+    left: 50%;
+    bottom: -50px;
+    
+}
+
+.facebook{
+    
+    background-image: url(facebook.svg);
+   background-position: center;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    margin-left: 12%;
+    padding-top: 10px;
+    position: relative;
+    left: 60%;
+    bottom: -15px;
+  
+}
+
+.instagram{
+    
+    background-image: url(instagram.svg);
+   background-position: center;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    margin-left: 12%;
+    padding-top: 10px;
+    position: relative;
+    left: 70%;
+    bottom: 20px;
+}
+} 
